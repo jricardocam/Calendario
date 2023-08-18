@@ -12,38 +12,43 @@
 </head>
 <body>
     <div class="page">
-      <div class="header">
-        <div class="calendarStatus">
-          <button class="button is-secondary">Hoy</button>
-          <span class="calendarStatus-navegation">
-            <a href="" class="button is-compact" aria-label="Semana Anterior" aria-hidden="true">
-              <i class="
-              icon-Iconchevron-left"></i>
+      <header class="header">
+        <div class="header-primary">
+          <div class="header-logo">
+            <button class="button is-compact">
+              <i class="icon-Iconhamburguer-button"></i> 
+            </button>
+            <a href="/" aria-current="page" aria-label="calendar" tabindex="-1">
+              <img src="./icon/logo.png" alt="">
             </a>
-            <a href="" class="button is-compact" aria-label="Siguente Semana" aria-hidden="true">
-              <i class="
-              icon-Iconchevron-right"></i>
-            </a>
-
-          </span>
-          <time class="calendarStatus-date" datetime="25-06-2023">25 de Junio</time>
+          </div>
+          <div class="calendarStatus">
+            <button class="button is-secondary">Hoy</button>
+            <span class="calendarStatus-navegation">
+              <a href="" class="button is-compact" aria-label="Semana Anterior" aria-hidden="true">
+                <i class="
+                icon-Iconchevron-left"></i>
+              </a>
+              <a href="" class="button is-compact" aria-label="Siguente Semana" aria-hidden="true">
+                <i class="
+                icon-Iconchevron-right"></i>
+              </a>
+  
+            </span>
+            <time class="calendarStatus-date" datetime="25-06-2023">25 de Junio</time>
+          </div>
         </div>
-        <select class="select" name="" id="">
-          <option value="" selected>Semana</option>
-          <option value="">Día</option>
-        </select>
-        <button class="button">button</button>
-        <a href="#" class="button">button</a>
-        <a href="#" class="button is-primary">button</a>
-        <a href="#" class="button is-secondary">button</a>
-        <a href="#" class="button is-rounded is-shadowed">
-          <i class="icon-Iconplus"></i>
-          <span>button</span>
-        </a>
-        <a href="#" class="button is-compact is-shadowed">
-          <i class="icon-Iconplus"></i>
-        </a>
-      </div>
+        <div class="header-secondary">
+          <select class="select" name="" id="">
+            <option value="" selected>Semana</option>
+            <option value="">Día</option>
+          </select>
+          <a href="#user">
+            <img src="./icon/Ellipse 1.png" alt="">
+          </a>
+        </div>
+      </header>
+
       <div class="sidebar"></div>
       <main class="calendar">
         <div class="currentTime"></div>
