@@ -1,5 +1,6 @@
 .select{
-    padding-inline: 0.75rem;
+    padding-inline-start: .75rem;
+    padding-inline-end: 1.5rem;
     padding-block: 0.5rem;
     border-radius: 0.25rem;
     border: solid 1px var(--gray20);
@@ -7,5 +8,5 @@
     appearance: none;
     background-image: url("../icon/Union.svg");
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right 0.5rem center;
 }
