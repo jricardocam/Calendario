@@ -5,6 +5,7 @@
 .checkList-header{
     display: flex;
     max-block-size: 2rem;
+    block-size: 100%;
     align-items: center;
     gap: 4.18rem;
     
