@@ -1,9 +1,9 @@
 .header{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-inline: 1.5rem;
+    border-block-end:solid var(--gray10);
 }
 
 .header-primary{
