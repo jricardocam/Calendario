@@ -1,0 +1,32 @@
+.checkList{
+    max-inline-size:12.5rem ;
+}
+
+.checkList-header{
+    display: flex;
+    max-block-size: 2rem;
+    align-items: center;
+    gap: 4.18rem;
+    
+}
+.checkList-title{
+    color: var(--gray30);
+    font: var(--body1-medium);
+    margin: 0;
+}
+.checkList-item{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-block-start: 0.75rem;
+}
+.checkList-mark{
+    color: var(--gray50);
+    text-decoration: none;
+}
+
+.checList-task{
+    color: var(--gray30);
+    font: var(--body1-regular);
+}
+
